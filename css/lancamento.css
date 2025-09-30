@@ -1,11 +1,10 @@
 
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 
@@ -69,4 +68,20 @@ body {
 .but_carros:hover {
     background-color: #1b357e;
     transform: scale(1.2);
+}
+
+
+@media(max-width:430px) {
+    .main_table tr {
+        flex-direction: column;
+        align-items: center;
+   }
+
+   .main_video {
+    width: 100%;
+    height: 200px;
+   }
+
+   
+
 }

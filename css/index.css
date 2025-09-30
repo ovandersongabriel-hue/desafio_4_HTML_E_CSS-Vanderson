@@ -24,7 +24,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 .header_logo {
@@ -45,6 +44,3 @@ body {
 
 }
 
-@media(max-width:430px) {
-    
-}

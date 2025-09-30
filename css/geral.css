@@ -108,3 +108,17 @@
 .footer_texto {
     color: white;
 }
+
+
+@media(max-width:430px) {
+    .cabecalho, .menu_lista {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rodape {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 8px;
+    }
+}
