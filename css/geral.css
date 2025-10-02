@@ -8,15 +8,18 @@
     align-items: center;
     box-shadow: 1px 1px 6px black;
     padding: 30px 0;
+    justify-content: space-between;
 }
 
 .menu_nav {
-    margin: auto;
+    margin-right: 100px;
+    flex: 1;
 }
 
 .menu_lista {
     display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
 .menu_item {
@@ -27,15 +30,6 @@
 .menu_item a {
     text-decoration: none;
     color: #1351d8;
-}
-
-.rodape {
-    width: 100%;
-    display: flex;
-    align-self: flex-end;
-    box-shadow: 1px 1px 6px black;
-    justify-content: space-between;
-    background-color: #1b357e;
 }
 
 .redes_sociais p {
@@ -65,32 +59,6 @@
 .redes_sociais_lista {
     display: flex;
 
-}
-
-.cabecalho {
-    display: flex;
-    align-items: center;
-    box-shadow: 1px 1px 6px black;
-    padding: 30px 0;
-}
-
-.menu_nav {
-    margin: auto;
-}
-
-.menu_lista {
-    display: flex;
-    gap: 30px;
-}
-
-.menu_item {
-    font-size: 21px;
-    
-}
-
-.menu_item a {
-    text-decoration: none;
-    color: #1351d8;
 }
 
 .rodape {
