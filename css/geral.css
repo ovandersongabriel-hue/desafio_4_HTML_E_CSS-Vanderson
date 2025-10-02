@@ -101,6 +101,7 @@
     justify-content: space-between;
     background-color: #1b357e; 
     color: white;
+    align-items: center;
 }
 
 .redes_sociais p {
