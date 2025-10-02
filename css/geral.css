@@ -1,3 +1,8 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .cabecalho {
     display: flex;
     align-items: center;
@@ -94,7 +99,8 @@
     align-self: flex-end;
     box-shadow: 1px 1px 6px black;
     justify-content: space-between;
-    background-color: #1b357e;
+    background-color: #1b357e; 
+    color: white;
 }
 
 .redes_sociais p {
@@ -110,7 +116,7 @@
 }
 
 
-@media(max-width:430px) {
+@media(max-width:760px) {
     .cabecalho, .menu_lista {
         flex-direction: column;
         text-align: center;
